@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lessons>
+<chapter>
+<number>1</number>
+<title>Preface</title>
+<description>Jazz Guitar</description>
+<html_source>uno.html</html_source>
+</chapter>
+<chapter>
+<number>2</number>
+<title>Sound</title>
+<description>What is the sound</description>
+<html_source>due.html</html_source>
+</chapter>
+<chapter>
+<number>3</number>
+<title>Notes</title>
+<description>Notation and Duration</description>
+<html_source>tre.html</html_source>
+</chapter>
+<chapter>
+<number>4</number>
+<title>Major Scale</title>
+<description>Composition</description>
+<html_source>cinque.html</html_source>
+</chapter>
+<chapter>
+<number>5</number>
+<title>Minor scale</title>
+<description>Composition</description>
+<html_source>sei.html</html_source>
+</chapter>
+<chapter>
+<number>6</number>
+<title>Pentatonic Scales</title>
+<description>Composition and fingering</description>
+<html_source>sette.html</html_source>
+</chapter>
+<chapter>
+<number>7</number>
+<title>Chords</title>
+<description>Structure and Use</description>
+<html_source>otto.html</html_source>
+</chapter>
+<chapter>
+<number>8</number>
+<title>Tetrads</title>
+<description>Generic Structure</description>
+<html_source>Tetradi</html_source>
+</chapter>
+<chapter>
+<number>9</number>
+<title>Improvvisation</title>
+<description>How to improvise</description>
+<html_source>nove.html</html_source>
+</chapter>
+</lessons>

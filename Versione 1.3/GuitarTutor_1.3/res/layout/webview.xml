@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+<TableLayout android:layout_width="match_parent"
+		android:layout_height="match_parent" android:layout_marginTop="0dip">
+		<TableRow android:gravity="left">
+			<LinearLayout android:orientation="horizontal">
+				<Button android:layout_height="wrap_content" android:id="@+id/backButton"
+					android:layout_width="wrap_content" android:layout_marginTop="0dip"
+					android:drawableBottom="@drawable/back_icon" 
+					android:background="@drawable/black"/>
+			</LinearLayout>
+			</TableRow>
+		<TableRow>
+			<WebView android:id="@+id/webview" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:maxWidth="200dip"/>
+		</TableRow>
+	</TableLayout>
+</ScrollView>
