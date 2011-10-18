@@ -1,0 +1,9 @@
+[Guitarutor_1.4]
+
+- Modificata dimensione del tasto search (android:layout_height="70px" android:layout_width="130px")
+- Modificata immagine di select in colore giallo
+- Modificata altezza edit text data (android:layout_height="48px")
+- Modificata classe VideoSearcher.java per invocare Intent.ACTION_SEARCH, utilizzando il package "com.google.android.youtube".
+
+--Parametri del db sqlite settings.db
+46|http_proxy|172.16.1.250
