@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		Copyright (C) 2009 The Android Open Source Project Licensed under the
+		Apache License, Version 2.0 (the "License"); you may not use this file
+		except in compliance with the License. You may obtain a copy of the
+		License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+		by applicable law or agreed to in writing, software distributed under
+		the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<TableLayout android:layout_width="match_parent"
+		android:layout_height="match_parent" android:layout_marginTop="0dip"
+		android:background="@drawable/titolo" android:id="@+id/TableSearch">
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+				android:gravity="right" android:layout_marginTop="120dip"
+				android:layout_height="wrap_content" android:text="@string/inputsearch" />
+			<Spinner android:id="@+id/spinner" android:layout_width="match_parent"
+				android:layout_marginTop="120dip" android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true" />
+
+		</TableRow>
+		<TableRow android:gravity="center_horizontal">
+		<LinearLayout android:orientation="horizontal">
+			<Button android:layout_height="70px" android:drawableBottom="@drawable/search"
+				android:id="@+id/searchButton" android:layout_width="130px"
+				android:layout_marginTop="50px"/>
+		</LinearLayout>
+		</TableRow>
+		<TableRow></TableRow>
+	</TableLayout>
+</ScrollView>

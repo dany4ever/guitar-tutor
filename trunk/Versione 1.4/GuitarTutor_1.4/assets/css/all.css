@@ -1,0 +1,105 @@
+/*************************************************************/
+/*                 GUITAR TUTOR 1.4 CSS                      */
+/*************************************************************/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-image:url('../images/body_background_dark.png');
+  background-position:left top;
+  background-repeat:repeat;
+  background-color:#000000;
+}
+
+body {
+  display: box;
+  box-align: center;
+  box-pack: center;
+  margin:2px 0px; padding:0px;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+
+}
+
+h1{
+color:#F6CF64;
+}
+
+h2{
+color:#E89B3D;
+}
+
+h4{
+color:#E89B3D;
+}
+
+#img{
+  width:400px;
+  text-align:center;
+  float:center;
+}
+
+/***********************/
+/* Container generale*/
+/***********************/
+#container{
+    width:500px;
+	height:600px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:2px;
+    border-style: outset;
+	border-color: #4B4A45;
+	-webkit-border-radius: 10px;
+	background-color:#141414;
+	color:#ffffff;
+	overflow:scroll;
+}
+
+/***********************/
+/* Titolo Sezione */
+/***********************/
+#header{
+
+}
+
+#headerimg{
+background-image: url('../images/logo_guitar.jpg');
+background-repeat: no-repeat;
+float:left;
+width:120px;
+height:100px;
+padding-left:15px;
+}
+
+/************************************/
+/* Titolo e contenuto dell'articolo */
+/************************************/
+#main{
+
+}
+
+/***********************/
+/* Titolo dell'articolo */
+/***********************/
+#titolo{
+
+}
+
+/***********************/
+/* Contenuti del'articolo */
+/***********************/
+#content_paragraph{
+text-align:justify;
+font-family:"Times New Roman", Times, serif";
+word-spacing:3px;
+font-size:medium;
+color:#FFFFFF;
+}
+
+
+

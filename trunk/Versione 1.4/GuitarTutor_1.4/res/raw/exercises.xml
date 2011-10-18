@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exercises>
+<chapter>
+<number>1</number>
+<title>Esercizi Cromatici 1</title>
+<description>Cromatismi su 4 dita</description>
+<html_source>e_cromatici_4_dita_1</html_source>
+<audio>e_cromatici_4_dita_1.mid</audio>
+<image>e_cromatici_4_dita_1.jpg</image>
+</chapter>
+<chapter>
+<number>2</number>
+<title>Esercizi Cromatici 2</title>
+<description>Cromatismi su 4 dita</description>
+<html_source>e_cromatici_4_dita_2</html_source>
+<audio>e_cromatici_4_dita_2.mid</audio>
+<image>e_cromatici_4_dita_2.jpg</image>
+</chapter>
+<chapter>
+<number>3</number>
+<title>Esercizi Cromatici 3</title>
+<description>Cromatismi su 4 dita</description>
+<html_source>e_cromatici_4_dita_3</html_source>
+<audio>e_cromatici_4_dita_3.mid</audio>
+<image>e_cromatici_4_dita_2.jpg</image>
+</chapter>
+<chapter>
+<number>4</number>
+<title>Esercizi Cromatici 4</title>
+<description>Cromatismi su 4 dita</description>
+<html_source>e_cromatici_4_dita_4</html_source>
+<audio>e_cromatici_4_dita_4.mid</audio>
+<image>e_cromatici_4_dita_4.jpg</image>
+</chapter>
+<chapter>
+<number>5</number>
+<title>Pentatoniche</title>
+<description>Pentatoniche su tutto il manico</description>
+<html_source>e_penta_1</html_source>
+<audio>e_penta_1_a.mid</audio>
+<image>e_penta_1.jpg</image>
+</chapter>
+<chapter>
+<number>6</number>
+<title>Scala maggiore</title>
+<description>Esercizio Scala maggiore</description>
+<html_source>e_maggiore_1</html_source>
+<audio>e_maggiore_1_a.mid</audio>
+<image>e_maggiore_1.jpg</image>
+</chapter>
+<chapter>
+<number>8</number>
+<title>Scala minore</title>
+<description>Esercizio Scala minore</description>
+<html_source>e_minore_1</html_source>
+<audio>e_minore_1.mid</audio>
+<image>e_minore_1.jpg</image>
+</chapter>
+</exercises>

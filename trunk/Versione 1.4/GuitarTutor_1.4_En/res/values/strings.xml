@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuitarTutor</string>
+    <string name="inputsearch"><b>Video-Lessons</b> </string>
+    <string name="search"><b>Search</b></string>
+    <string name="back"><b>Back</b></string>
+</resources>

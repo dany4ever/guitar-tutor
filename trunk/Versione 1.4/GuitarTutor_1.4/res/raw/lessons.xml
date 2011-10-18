@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lessons>
+<chapter>
+<number>1</number>
+<title>Prefazione</title>
+<description>La chitarra Jazz</description>
+<html_source>uno.html</html_source>
+</chapter>
+<chapter>
+<number>2</number>
+<title>Il suono</title>
+<description>Che cos'è il suono</description>
+<html_source>due.html</html_source>
+</chapter>
+<chapter>
+<number>3</number>
+<title>Le note</title>
+<description>Notazione e durata</description>
+<html_source>tre.html</html_source>
+</chapter>
+<chapter>
+<number>4</number>
+<title>Le scale e gli intervalli</title>
+<description>Cosa sono e il loro utilizzo</description>
+<html_source>quattro.html</html_source>
+</chapter>
+<chapter>
+<number>5</number>
+<title>Scala maggiore</title>
+<description>Composizione</description>
+<html_source>cinque.html</html_source>
+</chapter>
+<chapter>
+<number>6</number>
+<title>Scala minore</title>
+<description>Composizione</description>
+<html_source>sei.html</html_source>
+</chapter>
+<chapter>
+<number>7</number>
+<title>Scale Pentatoniche</title>
+<description>Composizione e diteggiatura</description>
+<html_source>sette.html</html_source>
+</chapter>
+<chapter>
+<number>8</number>
+<title>Accordi</title>
+<description>Struttura e utilizzo</description>
+<html_source>otto.html</html_source>
+</chapter>
+<chapter>
+<number>9</number>
+<title>Tetradi</title>
+<description>Composizione generica</description>
+<html_source>Tetradi</html_source>
+</chapter>
+<chapter>
+<number>10</number>
+<title>Improvvisazione</title>
+<description>Come improvvisare</description>
+<html_source>nove.html</html_source>
+</chapter>
+</lessons>
