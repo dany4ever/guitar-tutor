@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="videolessons">
+        <item>Major Scales</item>
+        <item>Minor Scales</item>
+        <item>Modal Scales</item>
+        <item>Chromatic Scales</item>
+        <item>Pentatonic Scales</item>
+        <item>Chords Structure</item>
+        <item>Blues Structure</item>
+        <item>Rock Structure</item>
+        <item>Jazz Structure</item>
+        <item>Blues Improvvisation</item>
+        <item>Rock Improvvisation</item>
+        <item>Jazz Improvvisation</item>
+    </string-array>
+        <string-array name="bpms">
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>150</item>
+        <item>160</item>
+        <item>170</item>
+        <item>180</item>
+        <item>190</item>
+        <item>200</item>
+        <item>210</item>
+        <item>220</item>
+        <item>230</item>
+        <item>240</item>
+        <item>250</item>
+    </string-array>
+</resources>

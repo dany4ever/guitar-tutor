@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lessons>
+<chapter>
+<number>1</number>
+<title>Prefazione</title>
+<description>La chitarra Jazz</description>
+<html_source>uno.html</html_source>
+</chapter>
+<chapter>
+<number>2</number>
+<title>Il suono</title>
+<description>Che cos'è il suono.</description>
+<html_source>due.html</html_source>
+</chapter>
+<chapter>
+<number>3</number>
+<title>Le note</title>
+<description>Notazione e durata.</description>
+<html_source>tre.html</html_source>
+</chapter>
+<chapter>
+<number>4</number>
+<title>Le scale e gli intervalli</title>
+<description>Cosa sono e il loro utilizzo.</description>
+<html_source>quattro.html</html_source>
+</chapter>
+</lessons>
