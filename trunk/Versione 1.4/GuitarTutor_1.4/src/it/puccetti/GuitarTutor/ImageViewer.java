@@ -59,6 +59,16 @@ public class ImageViewer extends Activity {
 			img.setImageResource(R.raw.tetradi);
 		}
 
+		if (immmagine.equalsIgnoreCase("Pentatonichemaj") == true) {
+
+			img.setImageResource(R.raw.pentatonichemaj);
+		}
+		
+		if (immmagine.equalsIgnoreCase("Pentatonichemin") == true) {
+
+			img.setImageResource(R.raw.pentatonichemin);
+		}
+		
 		Button buttonBack = (Button) findViewById(R.id.backButton);
 		buttonBack.setOnClickListener(buttonBackOnClickListener);
 
