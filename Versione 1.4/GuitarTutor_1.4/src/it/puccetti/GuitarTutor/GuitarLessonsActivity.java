@@ -130,14 +130,15 @@ public class GuitarLessonsActivity extends ListActivity implements
 						int position, long id) {
 
 					// DISPATCH ALL'ACTIVITY DEI DETTAGLI
-					Intent poIntent;
+					Intent poIntent = null;
 					String sHtmlFile = (String) m_ListaElementi.get(position).m_sHtml;
 
-					if (sHtmlFile.equalsIgnoreCase("Tetradi")) {
+					if (sHtmlFile.contains(".html")== false) {
 						poIntent = new Intent(view.getContext(),
 								ImageViewer.class);
 						poIntent.putExtra("image", sHtmlFile);
-					} else {
+					} 
+					if(sHtmlFile.contains(".html")) {
 						poIntent = new Intent(view.getContext(),
 								DetailActivity.class);
 						poIntent.putExtra("htmlsource", sHtmlFile);

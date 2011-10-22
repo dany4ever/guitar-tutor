@@ -20,36 +20,42 @@
 </chapter>
 <chapter>
 <number>4</number>
-<title>Le scale e gli intervalli</title>
-<description>Cosa sono e il loro utilizzo</description>
-<html_source>quattro.html</html_source>
-</chapter>
-<chapter>
-<number>5</number>
 <title>Scala maggiore</title>
 <description>Composizione</description>
 <html_source>cinque.html</html_source>
 </chapter>
 <chapter>
-<number>6</number>
+<number>5</number>
 <title>Scala minore</title>
 <description>Composizione</description>
 <html_source>sei.html</html_source>
 </chapter>
 <chapter>
-<number>7</number>
+<number>6</number>
 <title>Scale Pentatoniche</title>
-<description>Composizione e diteggiatura</description>
-<html_source>sette.html</html_source>
+<description>Composizione</description>
+<html_source>sei.html</html_source>
+</chapter>
+<chapter>
+<number>7</number>
+<title>Scala Pentatonica Maggiore</title>
+<description>Diteggiatura CAGED</description>
+<html_source>Pentatonichemaj</html_source>
 </chapter>
 <chapter>
 <number>8</number>
-<title>Accordi</title>
-<description>Struttura e utilizzo</description>
-<html_source>otto.html</html_source>
+<title>Scala Pentatonica Minore</title>
+<description>Diteggiatura CAGED</description>
+<html_source>Pentatonichemin</html_source>
 </chapter>
 <chapter>
 <number>9</number>
+<title>Accordi</title>
+<description>Struttura e utilizzo</description>
+<html_source>sette.html</html_source>
+</chapter>
+<chapter>
+<number>11</number>
 <title>Tetradi</title>
 <description>Composizione generica</description>
 <html_source>Tetradi</html_source>
@@ -58,6 +64,6 @@
 <number>10</number>
 <title>Improvvisazione</title>
 <description>Come improvvisare</description>
-<html_source>nove.html</html_source>
+<html_source>otto.html</html_source>
 </chapter>
 </lessons>
