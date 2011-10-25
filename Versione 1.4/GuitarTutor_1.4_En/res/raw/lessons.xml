@@ -22,36 +22,48 @@
 <number>4</number>
 <title>Major Scale</title>
 <description>Composition</description>
-<html_source>cinque.html</html_source>
+<html_source>quattro.html</html_source>
 </chapter>
 <chapter>
 <number>5</number>
 <title>Minor scale</title>
 <description>Composition</description>
-<html_source>sei.html</html_source>
+<html_source>cinque.html</html_source>
 </chapter>
 <chapter>
 <number>6</number>
 <title>Pentatonic Scales</title>
 <description>Composition and fingering</description>
-<html_source>sette.html</html_source>
+<html_source>sei.html</html_source>
 </chapter>
 <chapter>
 <number>7</number>
-<title>Chords</title>
-<description>Structure and Use</description>
-<html_source>otto.html</html_source>
+<title>Major pentatonic scale</title>
+<description>CAGED system</description>
+<html_source>Pentatonichemaj_en</html_source>
 </chapter>
 <chapter>
 <number>8</number>
-<title>Tetrads</title>
-<description>Generic Structure</description>
-<html_source>Tetradi</html_source>
+<title>Minor Pentatonic scale</title>
+<description>CAGED system</description>
+<html_source>Pentatonichemin_en</html_source>
 </chapter>
 <chapter>
 <number>9</number>
-<title>Improvvisation</title>
+<title>Chords</title>
+<description>Structure and usage</description>
+<html_source>sette.html</html_source>
+</chapter>
+<chapter>
+<number>10</number>
+<title>Tetrads</title>
+<description>Composizione generica</description>
+<html_source>Tetradi</html_source>
+</chapter>
+<chapter>
+<number>11</number>
+<title>Improvisation</title>
 <description>How to improvise</description>
-<html_source>nove.html</html_source>
+<html_source>otto.html</html_source>
 </chapter>
 </lessons>
