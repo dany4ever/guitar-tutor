@@ -16,9 +16,11 @@
 				android:src="@drawable/speaker_icon" />
 		</TableRow>
 		<TableRow android:layout_marginTop="-40dip" android:id="@+id/row">
-			<ImageView android:layout_gravity="center" android:id="@+id/imgex"
+		<LinearLayout android:orientation="horizontal" android:gravity="center_horizontal">"
+		<ImageView android:layout_gravity="center" android:id="@+id/imgex"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
 				android:src="@drawable/record_icon" />
+		</LinearLayout>
 		</TableRow>
 		<TableRow>
 			<LinearLayout android:orientation="horizontal"
@@ -40,6 +42,30 @@
 			<LinearLayout android:orientation="horizontal" android:gravity="center_horizontal">
 				<CheckBox android:id="@+id/checkloop" android:layout_width="wrap_content"
 					android:layout_height="fill_parent" android:text="Loop" />
+			</LinearLayout>
+		</TableRow>
+		<TableRow>
+			<LinearLayout android:orientation="horizontal" android:gravity="center_horizontal" android:weightSum="1">
+				<ImageView android:layout_marginRight="10px" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageViewMetronomo" android:src="@drawable/metronome_tab_icon"></ImageView>
+				<TextView android:textSize="25dp" android:textColor="@drawable/red" android:layout_marginTop="10dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Allenamento" android:id="@+id/textViewAllenamento" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+			</LinearLayout>
+		</TableRow>
+		<TableRow>
+			<LinearLayout android:orientation="horizontal" android:gravity="center_horizontal" android:weightSum="1">
+				<ToggleButton android:layout_marginTop="10dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Training" android:id="@+id/toggle"></ToggleButton>
+			</LinearLayout>
+		</TableRow>
+		<TableRow>
+			<LinearLayout android:orientation="horizontal" android:gravity="center_horizontal" android:weightSum="1">
+				<Button android:textSize="20dp" android:id="@+id/buttonDecrBpm" android:text="-" android:layout_marginTop="12dp" android:layout_height="35dp" android:layout_width="35dp"></Button>
+				<TextView android:layout_marginTop="10dp" android:background="@drawable/grey" android:textSize="20dp" android:textColor="@drawable/orange" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="160 Bpm" android:id="@+id/textViewBpm" android:layout_height="wrap_content"></TextView>
+				<Button android:layout_marginBottom="20dp" android:textSize="20dp" android:layout_marginTop="12dp" android:id="@+id/buttonIncrBpm" android:text="+" android:layout_width="35dp" android:layout_height="35dp"></Button>
+			</LinearLayout>
+		</TableRow>
+		<TableRow>
+			<LinearLayout android:orientation="horizontal" android:gravity="left" android:weightSum="1">
+				<ImageButton android:layout_marginTop="0dp" android:layout_width="wrap_content" android:src="@drawable/volume_high_icon" android:id="@+id/imageButtonVolume" android:layout_gravity="left" android:layout_height="46dp"></ImageButton>
+				<SeekBar android:layout_marginTop="5dp" android:layout_height="wrap_content" android:id="@+id/seekBarVolume" android:layout_width="match_parent"></SeekBar>		
 			</LinearLayout>
 		</TableRow>
 	</TableLayout>
