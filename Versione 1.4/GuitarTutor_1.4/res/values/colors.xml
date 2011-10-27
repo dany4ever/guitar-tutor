@@ -5,4 +5,6 @@
     <drawable name="red">#FF0000</drawable>
     <drawable name="white">#FFFFFF</drawable>
     <drawable name="blue">#0000FF</drawable>
+    <drawable name="orange">#FFA500</drawable>
+    <drawable name="grey">#3B3131</drawable> 
 </resources>

@@ -1,11 +1,7 @@
 package it.puccetti.GuitarTutor;
 
-import it.puccetti.GuitarTutor.R;
-
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.StringTokenizer;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -13,18 +9,19 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 
+import android.R;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.LayoutAnimationController;
 import android.view.animation.TranslateAnimation;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
@@ -41,7 +38,6 @@ public class GuitarExercisesActivity extends ListActivity implements
 	private ArrayList<Elemento> m_ListaElementi = null;
 
 	private GTutorAdapter m_adapter = null;
-
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		Elemento curEl = null;
@@ -157,6 +153,7 @@ public class GuitarExercisesActivity extends ListActivity implements
 
 			// Listener
 			lv.setOnItemSelectedListener(this);
+
 
 			in = null;
 			builder = null;
