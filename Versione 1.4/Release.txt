@@ -1,6 +1,6 @@
 [Guitarutor_1.4]
 
-TODO:
+[TODO]
 
-- Aggiornare immagini penta min.
-- Rivedere contenuti html e loro visualizzazione.
+- Aggiungere nuovi contenuti;
+- Introdurre sezione statistiche;
