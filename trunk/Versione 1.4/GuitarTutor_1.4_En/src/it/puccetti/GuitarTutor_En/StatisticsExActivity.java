@@ -1,4 +1,4 @@
-package it.puccetti.GuitarTutor;
+package it.puccetti.GuitarTutor_En;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,11 +11,17 @@ import android.os.Bundle;
 public class StatisticsExActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		float[] values = new float[] { 2.0f,1.5f, 2.5f, 1.0f , 3.0f };
-		String[] verlabels = new String[] { "great", "ok", "bad" };
-		String[] horlabels = new String[] { "today", "tomorrow", "next week", "next month" };
-		GraphView graphView = new GraphView(this, values, "GraphViewDemo",horlabels, verlabels, GraphView.LINE);
+		super.onCreate(savedInstanceState);		
+		//Recupero i parametri
+		Bundle b = getIntent().getExtras();
+		String titoloex = null;
+		String numeroex = null;
+		titoloex = b.getString("esercizio");
+		numeroex = b.getString("numero");
+		//Titolo parametro		
+		//Punti verticali bpm esercizio
+		//Punti horizzontali data esercizio convertita
+		GraphView graphView = new GraphView(this, titoloex, numeroex, GraphView.LINE);
 		setContentView(graphView);
 	}
 }

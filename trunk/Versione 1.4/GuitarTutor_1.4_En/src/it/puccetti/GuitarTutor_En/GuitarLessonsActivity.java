@@ -1,13 +1,7 @@
 package it.puccetti.GuitarTutor_En;
 
-import it.puccetti.GuitarTutor.DetailActivity;
-import it.puccetti.GuitarTutor.ImageViewer;
-import it.puccetti.GuitarTutor_En.R;
-
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.StringTokenizer;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -18,7 +12,6 @@ import org.w3c.dom.NodeList;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.sax.Element;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -27,12 +20,10 @@ import android.view.animation.AnimationSet;
 import android.view.animation.LayoutAnimationController;
 import android.view.animation.TranslateAnimation;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemSelectedListener;
 
 public class GuitarLessonsActivity extends ListActivity implements
 		OnItemSelectedListener {
