@@ -1,0 +1,2 @@
+Guitar Tutor è un corso per chitarra, completo ed esauriente che guida lo studente nell'apprendimento dello strumento.
+Con Guitar Tutor avrete sempre a disposizione lezioni teoriche e pratiche e utili riferimenti a video lezioni di importanti esperti del settore.
